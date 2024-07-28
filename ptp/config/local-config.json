@@ -1,0 +1,26 @@
+{
+    "infra": {
+        "postgres": {
+            "user": "ptp_user",
+            "password": "bharat",
+            "database": "ptp",
+            "host": "localhost",
+            "port": 5432
+        },
+        "redis": {
+            "host": "localhost",
+            "password": "",
+            "db": 0,
+            "port": 6379
+        }
+    },
+    "service": {
+        "upstox": {
+            "access_token": "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI3RUE1WFQiLCJqdGkiOiI2NmE2NTUwNjJkNTE2MzJlZDk4YTEyNjIiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaWF0IjoxNzIyMTc2Nzc0LCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3MjIyMDQwMDB9.qj6kEzEVE3IJO2dLAg_Ex7z5-K5R8rgUS27R2VvBB6Q",
+            "api_version": "2.0"
+        },
+        "history": {
+            "from_date": "2024-04-01"
+        }
+    }
+}
